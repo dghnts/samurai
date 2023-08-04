@@ -1,0 +1,39 @@
+html {
+    font-size: 20px;
+    text-align: center;
+}
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 120%;
+    text-shadow: 0.1cm 0.1cm black;
+    border-bottom:solid 3px;
+    border-bottom-color: rgb{115, 115, 114};
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.even {
+   color: skyblue;
+}
+
+.odd {
+    color: rgb(255, 192, 203);
+}
+
+#M {
+    color:skyblue;
+}
+
+#P {
+    color:rgb(255, 192, 203);
+}
+
+#id p{
+    font-weight: bold;
+}
