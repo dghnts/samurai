@@ -1,0 +1,13 @@
+#id {
+    width: 800px;
+    background-color: #dcc9f4;
+    margin: 20px 0;
+}
+
+
+
+#id .top-child {
+    width: 20%;
+    background-color: #ffd9df;
+    display: inline;
+}
