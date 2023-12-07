@@ -49,9 +49,11 @@ detail = ProductDetailView.as_view()
 
 class LoginView(LoginView):
     form_class      = AuthenticationForm
-    template_name   = 'login.html'
+    template_name   = 'crud/login.html'
     
 login   = LoginView.as_view()
 
-class LogoutView(LogoutView):
-    template_name   = 'top.html' 
+class LogoutView(LoginRequiredMixin, LogoutView):
+    template_name   = 'crud/top.html' 
+
+logout  = LogoutView.as_view()
